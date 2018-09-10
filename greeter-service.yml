@@ -1,2 +1,1 @@
-config:
-  test: test value from config-server
+config.test: test value from config-server
