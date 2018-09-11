@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    greeter-service:
+    path: /greeter/**
+    serviceId: greeter-service
+  weather-service:
+    path: /weather/**
+    serviceId: weather-service
